@@ -1,0 +1,16 @@
+[autocorrect]
+# 文件过滤
+fileexclude = "(node_modules|\.vitepress|dist|build)"
+
+# Markdown 配置
+[autocorrect.md]
+# 中英文之间添加空格
+halfwidthPunctuationAfterEnglishWords = true
+fullwidthPunctuationAfterChineseWords = true
+
+# 特殊符号不添加空格
+skipSymbols = ["@", "#", ":", "/", "\\"]
+
+# 代码块不处理
+codeBlock = true
+inlineCode = true

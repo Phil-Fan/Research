@@ -1,0 +1,22 @@
+/* 自定义主题样式 */
+:root {
+  --vp-c-brand-1: #646cff;
+  --vp-c-brand-2: #747bff;
+  --vp-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* 代码块优化 */
+.vp-code-group {
+  margin: 16px 0;
+}
+
+/* 数学公式样式 */
+.katex-display {
+  margin: 1em 0;
+  overflow-x: auto;
+}
+
+/* 自定义容器样式增强 */
+.custom-container {
+  margin: 16px 0;
+}
