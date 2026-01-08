@@ -84,9 +84,9 @@ export default defineConfig({
               text: '研究方向',
               collapsible: false,
               items: [
-                { text: '🤖 LLM / 安全', link: '/LLM/Safety/' },
-                { text: '🎮 ���化学习', link: '/RL/' },
-                { text: '🤖 VLA / 机器人', link: '/VLA/' },
+                { text: '🤖 LLM', link: '/LLM/Safety/' },
+                { text: '🎮 强化学习', link: '/RL/' },
+                { text: '🤖 VLA', link: '/VLA/' },
                 { text: '💻 系统', link: '/SYS/' }
               ]
             }

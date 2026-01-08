@@ -20,3 +20,47 @@
 .custom-container {
   margin: 16px 0;
 }
+
+/* Card 容器样式 */
+.vp-card {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+  background: var(--vp-c-bg-soft);
+  transition: all 0.2s ease;
+}
+
+.vp-card:hover {
+  border-color: var(--vp-c-brand-1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.vp-card-title {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: var(--vp-c-text-1);
+  border-bottom: 1px solid var(--vp-c-divider);
+  padding-bottom: 8px;
+}
+
+.vp-card .vp-button {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-top: 8px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.vp-card .vp-button--brand {
+  background: var(--vp-c-brand-1);
+  color: white;
+}
+
+.vp-card .vp-button--brand:hover {
+  background: var(--vp-c-brand-2);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}

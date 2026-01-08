@@ -15,7 +15,7 @@ pnpm install
 pnpm dev
 ```
 
-访问 http://localhost:5173 查看效果
+访问 <http://localhost:5173> 查看效果
 
 ```bash
 pnpm build
@@ -76,6 +76,7 @@ date: 2025-01-08
 行内公式：`$E = mc^2$`
 
 块级公式：
+
 ```markdown
 $$
 \int_{a}^{b} f(x) dx = F(b) - F(a)

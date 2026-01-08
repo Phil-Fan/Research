@@ -9,27 +9,7 @@
 - 调试与优化
 - MCP (Model Context Protocol) 扩展
 
-## Context7 MCP
-
-通过 Context7 可以在 Claude Code 中直接查询最新的技术文档：
-
-- **VitePress**: `/vitejs/vitepress`
-- **TypeScript**: `/microsoft/TypeScript`
-- **Vue**: `/vuejs/core`
-
-### 安装
-
-```bash
-claude mcp add --transport http context7 https://mcp.context7.com/mcp
-```
-
-### 使用示例
-
-```
-查询 VitePress sidebar 配置方法
-```
-
-Context7 会自动注入最新的官方文档内容。
+- Context7 MCP
 
 ## 文献阅读辅助
 
@@ -76,6 +56,7 @@ AI 代码补全工具
 ### ChatGPT / Claude
 
 通用 AI 助手，可用于：
+
 - 代码解释
 - 算法设计
 - Debug 帮助

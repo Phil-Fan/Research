@@ -2,31 +2,30 @@
 
 [Zotero](https://www.zotero.org/) 是一款免费、开源的文献管理工具，配合各种插件可以实现强大的自动化工作流。
 
-## 资源链接
+## 📖 资源链接
 
-- [Zotero 官网](https://www.zotero.org/)
-- [Zotero 中文社区](https://zotero-chinese.com/)
-- [【ZOTERO】从安装到使用 个人向整理全集 - CC98 论坛](https://www.cc98.org/topic/5880486)
-- [对文献管理&阅读感到头大？——Zotero 介绍以及我的文献阅读工作流 - CC98 论坛](https://www.cc98.org/topic/4969029)
+- **[Zotero 官网](https://www.zotero.org/)**
+- **[Zotero 中文社区](https://zotero-chinese.com/)**
+- **[从安装到使用整理全集 - CC98](https://www.cc98.org/topic/5880486)**
+- **[文献阅读工作流 - CC98](https://www.cc98.org/topic/4969029)**
 
-## 推荐插件
+## 🔌 推荐插件
 
 ### 1. zotero-gpt
 
-[MuiseDestiny/zotero-gpt: GPT Meet Zotero](https://github.com/MuiseDestiny/zotero-gpt)
+**[GitHub](https://github.com/MuiseDestiny/zotero-gpt)**
 
 - 集成 GPT 功能，辅助文献阅读和笔记整理
 
 ### 2. zotero-pdf-translate
 
-[windingwind/zotero-pdf-translate](https://github.com/windingwind/zotero-pdf-translate/releases)
+**[GitHub](https://github.com/windingwind/zotero-pdf-translate)**
 
 - PDF 翻译插件，支持多种翻译 API
 
-**自定义翻译 Prompt 示例**:
+::: tip 自定义翻译 Prompt 示例
 
-````text
-```text title="zotero 翻译插件自定义 prompt"
+```text
 As an academic expert with specialized knowledge in iron and steel making,
 please provide a proficient and precise translation from ${langFrom} to ${langTo}.
 You should use artificial intelligence tools, such as natural language processing,
@@ -35,35 +34,40 @@ Make the reply looks like a native speaker. Some specific terms such as name do 
 need to be translated. The text is as follows: ${sourceText}
 Please provide the translated result without any additional explanation.
 ```
-````
+
+:::
 
 ### 3. zotero-better-notes
 
-[windingwind/zotero-better-notes](https://github.com/windingwind/zotero-better-notes/releases)
+**[GitHub](https://github.com/windingwind/zotero-better-notes)**
 
-强大的笔记插件，教程见 [化繁为简，快速提炼：Zotero 文献笔记最佳实践 - CC98 论坛](https://www.cc98.org/topic/5348707)
+强大的笔记插件
 
-**视频教程**:
+- **教程**：[化繁为简，快速提炼 - CC98](https://www.cc98.org/topic/5348707)
+
+**视频教程**：
 
 <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=555265521&bvid=BV1Cv4y1M7BY&cid=756880055&p=1&t=3638&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 ### 4. Zotero DOI Manager
 
-[bwiernik/zotero-shortdoi](https://github.com/bwiernik/zotero-shortdoi/releases)
+**[GitHub](https://github.com/bwiernik/zotero-shortdoi)**
 
-自动管理文献的 DOI 信息
+- 自动管理文献的 DOI 信息
 
 ### 5. zotero-actions-tags
 
-[windingwind/zotero-actions-tags](https://github.com/windingwind/zotero-actions-tags)
+**[GitHub](https://github.com/windingwind/zotero-actions-tags)**
 
-自定义标签和工作流
+- 自定义标签和工作流
 
-## Better Notes 模板
+## 📝 Better Notes 模板
 
-基于彭思达的 [如何有效地读论文](https://pengsida.notion.site/d192db870bc64436ae4a4a590b36772a) 设计的模板：
+基于彭思达的 [如何有效地读论文](https://pengsida.notion.site/d192db870bc64436ae4a4a590b36772a) 设计：
 
-````html
+::: details 点击查看模板代码
+
+```html
 <h1 style="background-color:#2c3e50; color:white; padding:0.4em 0.6em; border-radius:5px;">
   🌳 ${topItem.getField('title')}
 </h1>
@@ -209,9 +213,11 @@ Please provide the translated result without any additional explanation.
 </h3>
 
 为什么方法有 limitation
-````
+```
 
-## 同步方案
+:::
+
+## 🔄 同步方案
 
 Zotero 支持多种同步方式：
 
@@ -220,10 +226,10 @@ Zotero 支持多种同步方式：
 - **OneDrive** - 微软生态集成
 - **iCloud** - Apple 生态集成
 
-详见：[Zotero 低成本+大容量同步方案 折腾记录 - CC98 论坛](https://www.cc98.org/topic/6006315/1#1)
+详见：[Zotero 低成本 + 大容量同步方案 - CC98](https://www.cc98.org/topic/6006315)
 
-## 样式与引用
+## 🎨 样式与引用
 
-- [针对 Word 的 Zotero GB/T-7714 引文样式更新 - CC98 论坛](https://www.cc98.org/topic/5533559)
-- [Zotero style 显示阅读进度条+文章期刊等级/引用+自定义评级等等 - CC98 论坛](https://www.cc98.org/topic/5833139)
-- [zotero style 的安装使用，以及我最近遇到的问题 - CC98 论坛](https://www.cc98.org/topic/5940411)
+- [针对 Word 的 Zotero GB/T-7714 引文样式更新 - CC98](https://www.cc98.org/topic/5533559)
+- [Zotero style 显示阅读进度条 + 文章期刊等级/引用 + 自定义评级等等 - CC98](https://www.cc98.org/topic/5833139)
+- [zotero style 的安装使用，以及我最近遇到的问题 - CC98](https://www.cc98.org/topic/5940411)

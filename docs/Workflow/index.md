@@ -25,9 +25,11 @@
 ### 🔍 信息搜集
 
 #### RSS 订阅
+
 - 用于追踪最新论文和研究动态
 
 #### 论文搜集
+
 - [arXiv](https://arxiv.org/) - 预印本论文发布平台
 - [Web of Science](https://www.webofscience.com/) - 科研文献检索数据库
 - [Google Scholar](https://scholar.google.com/) - 谷歌学术搜索引擎
@@ -36,6 +38,7 @@
 - [Semantic Scholar](https://www.semanticscholar.org/) - AI 驱动的研究工具
 
 #### 代码平台
+
 - [GitHub](https://github.com/) - 代码托管平台
 - [Hugging Face](https://huggingface.co/) - AI 模型和数据集
 - [Papers with Code](https://paperswithcode.com/) - 论文代码实现
