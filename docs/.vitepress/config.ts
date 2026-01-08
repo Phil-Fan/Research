@@ -124,7 +124,7 @@ export default defineConfig({
 
     // 社交链接
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/philfan' }
+      { icon: 'github', link: 'https://github.com/phil-fan' }
     ],
 
     // 页脚
@@ -160,7 +160,7 @@ export default defineConfig({
 
     // 编辑链接
     editLink: {
-      pattern: 'https://github.com/philfan/Research/edit/main/docs/:path',
+      pattern: 'https://github.com/phil-fan/Research/edit/main/docs/:path',
       text: '在 GitHub 上编辑此页'
     },
 
