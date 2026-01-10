@@ -168,43 +168,43 @@ KeyError: 'gpt2'
 
 ??? note "报错信息"
 
-      ```text title="报错信息"
-      Traceback (most recent call last):
-      File "/root/autodl-tmp/Engorgio-prompt/./ica_code.py", line 184, in <module>
-         main(args)
-      File "/root/autodl-tmp/Engorgio-prompt/./ica_code.py", line 102, in main
-         pred = model(inputs_embeds=inputs_embeds_x).logits
-      File "/root/miniconda3/envs/sftenv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
-         return self._call_impl(*args, **kwargs)
-      File "/root/miniconda3/envs/sftenv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
-         return forward_call(*args, **kwargs)
-      File "/root/miniconda3/envs/sftenv/lib/python3.10/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 1075, in forward
-         transformer_outputs = self.transformer(
-      File "/root/miniconda3/envs/sftenv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
-         return self._call_impl(*args, **kwargs)
-      File "/root/miniconda3/envs/sftenv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
-         return forward_call(*args, **kwargs)
-      File "/root/miniconda3/envs/sftenv/lib/python3.10/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 899, in forward
-         outputs = block(
-      File "/root/miniconda3/envs/sftenv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
-         return self._call_impl(*args, **kwargs)
-      File "/root/miniconda3/envs/sftenv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
-         return forward_call(*args, **kwargs)
-      File "/root/miniconda3/envs/sftenv/lib/python3.10/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 388, in forward
-         hidden_states = self.ln_1(hidden_states)
-      File "/root/miniconda3/envs/sftenv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
-         return self._call_impl(*args, **kwargs)
-      File "/root/miniconda3/envs/sftenv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
-         return forward_call(*args, **kwargs)
-      File "/root/miniconda3/envs/sftenv/lib/python3.10/site-packages/torch/nn/modules/normalization.py", line 217, in forward
-         return F.layer_norm(
-      File "/root/miniconda3/envs/sftenv/lib/python3.10/site-packages/torch/nn/functional.py", line 2905, in layer_norm
-         return torch.layer_norm(
-      torch.AcceleratorError: CUDA error: device-side assert triggered
-      CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
-      For debugging consider passing CUDA_LAUNCH_BLOCKING=1
-      Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
-      ```
+```text title="报错信息"
+Traceback (most recent call last):
+File "/root/autodl-tmp/Engorgio-prompt/./ica_code.py", line 184, in <module>
+   main(args)
+File "/root/autodl-tmp/Engorgio-prompt/./ica_code.py", line 102, in main
+   pred = model(inputs_embeds=inputs_embeds_x).logits
+File "/root/miniconda3/envs/sftenv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+   return self._call_impl(*args, **kwargs)
+File "/root/miniconda3/envs/sftenv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+   return forward_call(*args, **kwargs)
+File "/root/miniconda3/envs/sftenv/lib/python3.10/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 1075, in forward
+   transformer_outputs = self.transformer(
+File "/root/miniconda3/envs/sftenv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+   return self._call_impl(*args, **kwargs)
+File "/root/miniconda3/envs/sftenv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+   return forward_call(*args, **kwargs)
+File "/root/miniconda3/envs/sftenv/lib/python3.10/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 899, in forward
+   outputs = block(
+File "/root/miniconda3/envs/sftenv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+   return self._call_impl(*args, **kwargs)
+File "/root/miniconda3/envs/sftenv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+   return forward_call(*args, **kwargs)
+File "/root/miniconda3/envs/sftenv/lib/python3.10/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 388, in forward
+   hidden_states = self.ln_1(hidden_states)
+File "/root/miniconda3/envs/sftenv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+   return self._call_impl(*args, **kwargs)
+File "/root/miniconda3/envs/sftenv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+   return forward_call(*args, **kwargs)
+File "/root/miniconda3/envs/sftenv/lib/python3.10/site-packages/torch/nn/modules/normalization.py", line 217, in forward
+   return F.layer_norm(
+File "/root/miniconda3/envs/sftenv/lib/python3.10/site-packages/torch/nn/functional.py", line 2905, in layer_norm
+   return torch.layer_norm(
+torch.AcceleratorError: CUDA error: device-side assert triggered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+```
 
 [深度学习报错“Compile with TORCH_USE_CUDA_DSA to enable device-side assertions”解决方法_torch use cuda dsa-CSDN 博客](https://blog.csdn.net/xxiaot/article/details/146062907)
 

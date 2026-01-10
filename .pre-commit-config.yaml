@@ -1,33 +1,16 @@
-# .pre-commit-config.yaml
-default_language_version:
-  python: python3
-
 repos:
-  # Markdown 语法检查
-  - repo: https://github.com/DavidAnson/markdownlint
-    rev: v0.40.0
+  - repo: local
     hooks:
       - id: markdownlint
-        args: [--config=.github/.markdownlint.json]
-        files: \.md$
-        exclude: ^(docs/\.vitepress/|node_modules/)
+        name: markdownlint (local)
+        entry: markdownlint
+        args: ["--fix", "--config", ".github/.markdownlint.yaml"]
+        language: system
+        types_or: [markdown]
 
-  # 中英文空格自动修复
-  - repo: https://github.com/huacnlee/autocorrect
-    rev: v2.5.0
-    hooks:
       - id: autocorrect
-        types: [markdown]
-        files: \.md$
-        exclude: ^(docs/\.vitepress/|node_modules/)
-
-  # 通用文件检查
-  - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v6.0.0
-    hooks:
-      - id: trailing-whitespace
-      - id: end-of-file-fixer
-      - id: check-yaml
-      - id: check-added-large-files
-        args: [--maxkb=1000]
-      - id: check-merge-conflict
+        name: autocorrect (local)
+        entry: autocorrect
+        language: system
+        args: ["--fix"]
+        types_or: [markdown, text]

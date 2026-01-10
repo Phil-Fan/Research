@@ -17,7 +17,7 @@ export default defineConfig({
     // 代码行号
     lineNumbers: true,
 
-    // 自定义容器标签(中文)
+    // 自定义容器标签 (中文)
     container: {
       tipLabel: '提示',
       warningLabel: '警告',
@@ -167,7 +167,7 @@ export default defineConfig({
   // 构建优化
   srcExclude: ['**/thesis_reading.xmind', '**/*.xmind'],
 
-  // Head 配置(添加数学公式 CSS 和自定义样式)
+  // Head 配置 (添加数学公式 CSS 和自定义样式)
   head: [
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css' }],
     ['link', { rel: 'stylesheet', href: '/custom.css' }]

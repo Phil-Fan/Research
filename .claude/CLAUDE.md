@@ -17,7 +17,7 @@
 
 ### 使用示例
 
-```
+```text
 查询 VitePress sidebar 配置方法
 查询 VitePress 数学公式配置
 ```
@@ -33,13 +33,14 @@
   - 支持的触发词：`/add`、`添加`、`新增内容`、`add content`
 
 **使用示例**：
-```
+
+```text
 /add 论文：Attention Is All You Need
 方向：LLM
 链接：https://arxiv.org/abs/1706.03762
 ```
 
-```
+```text
 /add 推荐工具：Zotero PDF 翻译插件
 用途：自动翻译 PDF 论文
 ```
@@ -56,12 +57,12 @@
 
 ## 项目结构
 
-```
+```text
 docs/
 ├── .vitepress/      # VitePress 配置
 ├── EXP/             # 研究方法论
 ├── Workflow/        # 工具与工作流
-├─�� LLM/             # 大语言模型
+├─ LLM/             # 大语言模型
 │   └── Safety/      # LLM 安全方向
 ├── RL/              # 强化学习
 ├── VLA/             # VLA / 机器人学习
@@ -93,6 +94,7 @@ npm run preview
 ### Pre-commit 钩子
 
 自动运行以下检查：
+
 - markdownlint: Markdown 语法检查
 - autocorrect: 中英文空格自动修复
 
@@ -145,6 +147,7 @@ date: 2025-01-08
 行内公式：`$E = mc^2$`
 
 块级公式：
+
 ```markdown
 $$
 \int_{a}^{b} f(x) dx = F(b) - F(a)
