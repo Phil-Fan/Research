@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "preview": "vitepress preview docs"
+    "preview": "vitepress preview docs",
+    "lint": "pre-commit run --all-files"
   },
   "devDependencies": {
     "markdown-it-mathjax3": "^4.3.2",

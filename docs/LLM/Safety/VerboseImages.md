@@ -577,8 +577,6 @@ huggingface_hub 库
 pip install huggingface_hub==0.25.2 -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
-###
-
 ```shell
 vi lavis/configs/models/blip2/blip2_instruct_vicuna7b.yaml
 ```
