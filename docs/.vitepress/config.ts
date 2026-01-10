@@ -41,7 +41,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '研究方法论', link: '/EXP/' },
       { text: '工具流', link: '/Workflow/' },
-      { text: '论文阅读', link: '/LLM/' }
+      { text: '方向', link: '/LLM/' }
     ],
 
     // 侧边栏配置
@@ -77,7 +77,7 @@ export default defineConfig({
 
       '/LLM/': [
         {
-          text: '论文阅读',
+          text: '方向',
           items: [
             { text: '概述', link: '/LLM/' },
             {
@@ -85,24 +85,13 @@ export default defineConfig({
               collapsible: false,
               items: [
                 { text: '🤖 LLM', link: '/LLM/Safety/' },
-                { text: '🎮 强化学习', link: '/RL/' },
                 { text: '🤖 VLA', link: '/VLA/' },
-                { text: '💻 系统', link: '/SYS/' }
+                { text: '🤖 Agents', link: '/Agents/' }
               ]
             }
           ]
         }
       ],
-
-      '/RL/': [
-        {
-          text: '强化学习',
-          items: [
-            { text: '概述', link: '/RL/' }
-          ]
-        }
-      ],
-
 
       '/VLA/': [
         {
@@ -112,11 +101,12 @@ export default defineConfig({
           ]
         }
       ],
-      '/SYS/': [
+
+      '/Agents/': [
         {
-          text: '系统',
+          text: 'Agents',
           items: [
-            { text: '概述', link: '/SYS/' }
+            { text: '概述', link: '/Agents/' }
           ]
         }
       ]

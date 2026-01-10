@@ -4,7 +4,12 @@
 
 ## 📊 排行榜与评测
 
-- **[RoboChallenge](https://robochallenge.ai/leaderboard)** - 机器人学习基准测���平台
+- **[RoboChallenge](https://robochallenge.ai/leaderboard)** - 机器人学习 Benchmark
+
+## 开源框架
+
+- [openvla/openvla](https://github.com/openvla/openvla) [![GitHub stars](https://img.shields.io/github/stars/openvla/openvla?style=social)](https://github.com/openvla/openvla)
+- [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi) [![GitHub stars](https://img.shields.io/github/stars/Physical-Intelligence/openpi?style=social)](https://github.com/Physical-Intelligence/openpi)
 
 ## 🔬 研究重点
 

@@ -26,7 +26,7 @@
 |:---:|:---|:---:|:---|
 | 2024 | **[Zero-Query Adversarial Attack](https://arxiv.org/html/2406.19311v1)** [![citation](https://img.shields.io/badge/dynamic/json?label=citation&style=social&logo=googlescholar&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F34a6996309ac36a4d6d657fbbf9ecfdf006e8239%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/Zero-Query-Adversarial-Attack-on-Black-box-Speech-Fang-Wang/34a6996309ac36a4d6d657fbbf9ecfdf006e8239) | [![Static Badge](https://img.shields.io/badge/%E7%AC%94%E8%AE%B0--blue?logo=markdown)](Zero_Query_Adversarial_Attack.md) | Black-box ASR |
 
-## 👨‍🏫 研究者推荐
+## Follow-up
 
 ### 🇨🇳 清华大学 (THU)
 
